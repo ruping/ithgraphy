@@ -2,8 +2,9 @@
 layout: post
 title:  "What determines the observed genomic divergence between paired metastatic and primary tumors"
 author: sal
-categories: [ M-P divergence,  ]
+categories: [ M-P divergence,  clonal dynamics, sequencing detectability ]
 image: "https://raw.githubusercontent.com/ruping/figure/master/img/met_timing_graphical_abstract.png"
+featured: true
 ---
 There are lots of powerful things you can do with the Markdown editor. If you've gotten pretty comfortable with writing in Markdown, then you may enjoy some more advanced tips about the types of things you can do with Markdown!
 
