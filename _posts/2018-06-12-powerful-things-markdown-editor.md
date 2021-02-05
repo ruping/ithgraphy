@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "What determines the observed genomic divergence between paired metastatic and primary tumors"
-author: sal
+author: ruping
 categories: [ M-P divergence,  clonal dynamics, sequencing detectability ]
 image: "https://raw.githubusercontent.com/ruping/figure/master/img/met_timing_graphical_abstract.png"
 featured: true
