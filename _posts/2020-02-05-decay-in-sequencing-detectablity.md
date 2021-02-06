@@ -2,7 +2,7 @@
 layout: post
 title:  "Decay in detectability"
 author: ruping
-categories: [ mathematical modeling, sequencing detectability ]
+categories: [ modeling, sequencing detectability ]
 image: "https://raw.githubusercontent.com/ruping/figure/master/img/img_0107.jpg"
 featured: true
 hidden: true

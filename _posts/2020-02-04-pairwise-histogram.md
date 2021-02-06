@@ -2,7 +2,7 @@
 layout: post
 title:  "Mirrored Histogram"
 author: ruping
-categories: [ Jekyll ]
+categories: [ SSNV ]
 image: assets/images/2.jpg
 rating: 3
 ---
