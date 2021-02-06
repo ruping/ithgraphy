@@ -1,7 +1,7 @@
 # Site
 name: "ithgraphy"
 title: "ithgraphy"
-description: "Visualizing Tumor Heterogeneity and Genomic Sequencing Data"
+description: "Visualizing Tumor Heterogeneity and Genomic Sequencing Data, memo of thoughts."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: 
