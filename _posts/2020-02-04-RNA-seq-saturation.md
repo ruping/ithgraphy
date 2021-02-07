@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Inception Movie"
+title:  "Does a RNA-seq experiment reach saturation?"
 author: john
 categories: [ CNV ]
 tags: [red, yellow]
-image: assets/images/11.jpg
+image: "https://raw.githubusercontent.com/ruping/figure/master/img/pos_tag.png"
 description: "My review of Inception movie. Acting, plot and something else in this short description."
 featured: false
 hidden: true
