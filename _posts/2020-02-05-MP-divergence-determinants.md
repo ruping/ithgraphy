@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "What determines the observed genomic divergence between paired metastatic and primary tumors"
+title:  "The actual meaning of genomic divergence between paired metastatic and primary tumors measured in NGS"
 author: ruping
 categories: [ clonal dynamics, modeling, sequencing detectability ]
 image: "https://raw.githubusercontent.com/ruping/figure/master/img/met_timing_graphical_abstract.png"
