@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Mirrored Histogram"
+title:  "Mirrored histogram for comparing VAF Distribution between two samples"
 author: ruping
 categories: [ SSNV ]
-image: assets/images/2.jpg
-rating: 3
+image: "https://raw.githubusercontent.com/ruping/figure/master/img/hist.png"
+rating: 4
 ---
 `gem install bundler` installs the bundler gem through RubyGems. You only need to install it once - not every time you create a new Jekyll project. Here are some additional details:
 
