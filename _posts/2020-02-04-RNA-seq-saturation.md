@@ -7,7 +7,7 @@ tags: [red, yellow]
 image: "https://raw.githubusercontent.com/ruping/figure/master/img/pos_tag.png"
 description: "My review of Inception movie. Acting, plot and something else in this short description."
 featured: false
-hidden: true
+hidden: false
 rating: 4.5
 ---
 
