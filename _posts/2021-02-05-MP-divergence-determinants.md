@@ -7,7 +7,7 @@ image: "https://raw.githubusercontent.com/ruping/figure/master/img/met_timing_gr
 featured: true
 ---
 
-Longitudinal tumor sampling provided us with the opportunity to quantify the between-tumor (stage) genomic divergence. To properly translate the genomic divergence between paired metastatic and primary tumors (M-P divergence) into the natural history of metastatic spread, it is fundamental to understand what exactly is being captured on the trees of tumor evolution by such divergence. Here, we take the first step towards analytically decomposing the elements of the M-P divergence, and reveal the underlying principles that govern the relation between M-P divergence, clonal dynamics, and detectability of somatic variants in the primary tumor. In parallel to our mathematical framework, we further investigate the patterns of M-P divergence by performing single-cell-based spatial tumor growth simulation studies. Both methods demonstrate that the growth mode of the primary tumor modulates the dependence of M-P divergence on the metastatic dissemination time, which has important implications for the accurate translation of the measured divergence. Our study paves the way towards bridging the measurable between-tumor heterogeneity with analytical modeling and interpretability.
+Longitudinal tumor sampling provided us with the opportunity to quantify the between-tumor (stage) genomic divergence. However, it still remains a puzzle about how to translate the genomic divergence between paired metastatic and primary tumor samples (M-P divergence) into the natural history of metastatic spread. Here, we visualize what exactly is being captured on the trees of tumor evolution by such divergence, by using computational and mathematical modeling approaches. We show that the number of somatic variants of the metastatic seeding cell that are undetectable in the primary tumor sequencing data, can be characterized as the path of the phylogenetic tree from the last appearing variant of the seeding cell back to ==the most recent detectable variant==. We find that the expected length of this path is principally determined by the decay in detectability of the variants along the seeding cell’s lineage; and thus, exhibits a significant dependence on the underlying tumor growth dynamics. We have written a paper to describe what we have found “Elements and evolutionary determinants of genomic divergence between paired primary and metastatic tumors” 
 
 As with the last post about the editor, you'll want to be actually editing this post as you read it so that you can see all the Markdown code we're using.
 
@@ -28,29 +28,6 @@ There are two types of code elements which can be inserted in Markdown, the firs
 ```
 .my-link {
     text-decoration: underline;
-}
-```
-
-#### HTML
-
-```html
-<li class="ml-1 mr-1">
-    <a target="_blank" href="#">
-    <i class="fab fa-twitter"></i>
-    </a>
-</li>
-```
-
-#### CSS
-
-```css
-.highlight .c {
-    color: #999988;
-    font-style: italic; 
-}
-.highlight .err {
-    color: #a61717;
-    background-color: #e3d2d2; 
 }
 ```
 
