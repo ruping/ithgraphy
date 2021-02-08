@@ -7,8 +7,9 @@ image: "https://raw.githubusercontent.com/ruping/figure/master/img/met_timing_gr
 featured: true
 ---
 
-Longitudinal tumor sampling provided us with the opportunity to quantify the between-tumor (stage) genomic divergence. However, it still remains a puzzle about how to translate the genomic divergence between paired metastatic and primary tumor samples (M-P divergence) into the natural history of metastatic spread. Here, we visualize what exactly is being captured on the trees of tumor evolution by such divergence, by using computational and mathematical modeling approaches. We show that the number of somatic variants of the metastatic seeding cell that are undetectable in the primary tumor sequencing data, can be characterized as the path of the phylogenetic tree from the last appearing variant of the seeding cell back to ==the most recent detectable variant==. We find that the expected length of this path is principally determined by the decay in detectability of the variants along the seeding cell’s lineage; and thus, exhibits a significant dependence on the underlying tumor growth dynamics. We have written a paper to describe what we have found “Elements and evolutionary determinants of genomic divergence between paired primary and metastatic tumors” 
+Longitudinal tumor sampling provided us with the opportunity to quantify the between-tumor (stage) genomic divergence. However, it still remains a puzzle about how to translate the genomic divergence between paired metastatic and primary tumor samples (M-P divergence) into the natural history of metastatic spread. Here, we visualize what exactly is being captured on the trees of tumor evolution by such divergence, by using computational and mathematical modeling approaches. We show that the number of somatic variants of the metastatic seeding cell that are undetectable in the primary tumor sequencing data, can be characterized as the path of the phylogenetic tree from the last appearing variant of the seeding cell back to <mark>the most recent detectable variant</mark>. We find that the expected length of this path is principally determined by the decay in detectability of the variants along the seeding cell’s lineage; and thus, exhibits a significant dependence on the underlying tumor growth dynamics. See our paper entitled [“Elements and evolutionary determinants of genomic divergence between paired primary and metastatic tumors”](https://www.biorxiv.org/content/10.1101/2020.08.24.262378v1) for details.
 
+<!--
 As with the last post about the editor, you'll want to be actually editing this post as you read it so that you can see all the Markdown code we're using.
 
 
@@ -66,8 +67,6 @@ printf("Hello World");
 ```
 
 
-
-
 ![walking]({{ site.baseurl }}/assets/images/8.jpg)
 
 ## Reference lists
@@ -81,3 +80,5 @@ Another way to insert links in markdown is using reference lists. You might want
 Perhaps the best part of Markdown is that you're never limited to just Markdown. You can write HTML directly in the Markdown editor and it will just work as HTML usually does. No limits! Here's a standard YouTube embed code as an example:
 
 <p><iframe style="width:100%;" height="315" src="https://www.youtube.com/embed/Cniqsc9QfDo?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p>
+
+-->
