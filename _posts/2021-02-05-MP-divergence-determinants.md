@@ -7,7 +7,7 @@ image: "https://raw.githubusercontent.com/ruping/figure/master/img/met_timing_gr
 featured: true
 ---
 
-Longitudinal tumor sampling provided us with the opportunity to quantify the between-tumor (stage) genomic divergence. The interpretation 
+Longitudinal tumor sampling provided us with the opportunity to quantify the between-tumor (stage) genomic divergence. To properly translate the genomic divergence between paired metastatic and primary tumors (M-P divergence) into the natural history of metastatic spread, it is fundamental to understand what exactly is being captured on the trees of tumor evolution by such divergence. Here, we take the first step towards analytically decomposing the elements of the M-P divergence, and reveal the underlying principles that govern the relation between M-P divergence, clonal dynamics, and detectability of somatic variants in the primary tumor. In parallel to our mathematical framework, we further investigate the patterns of M-P divergence by performing single-cell-based spatial tumor growth simulation studies. Both methods demonstrate that the growth mode of the primary tumor modulates the dependence of M-P divergence on the metastatic dissemination time, which has important implications for the accurate translation of the measured divergence. Our study paves the way towards bridging the measurable between-tumor heterogeneity with analytical modeling and interpretability.
 
 As with the last post about the editor, you'll want to be actually editing this post as you read it so that you can see all the Markdown code we're using.
 
