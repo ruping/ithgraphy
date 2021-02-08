@@ -9,6 +9,21 @@ featured: true
 
 Longitudinal tumor sampling provided us with the opportunity to quantify the between-tumor (stage) genomic divergence. However, it still remains a puzzle about how to translate the genomic divergence between paired metastatic and primary tumor samples (M-P divergence) into the natural history of metastatic spread. Here, we visualize what exactly is being captured on the trees of tumor evolution by such divergence, by using computational and mathematical modeling approaches. We show that the number of somatic variants of the metastatic seeding cell that are undetectable in the primary tumor sequencing data, can be characterized as the path of the phylogenetic tree from the last appearing variant of the seeding cell back to <mark>the most recent detectable variant</mark>. We find that the expected length of this path is principally determined by the decay in detectability of the variants along the seeding cell’s lineage; and thus, exhibits a significant dependence on the underlying tumor growth dynamics. See our paper entitled [“Elements and evolutionary determinants of genomic divergence between paired primary and metastatic tumors”](https://www.biorxiv.org/content/10.1101/2020.08.24.262378v1) for details.
 
+Let $c$ be a seeding cell of a secondary tumor (as opposed to the primary tumor) and also let
+\begin{equation}
+C = (c_0, c_1, . . . , c_{k_{seed}})
+\end{equation}
+be its associated set of variants, indexed according to the order of appearance as the primary tumor expands. Let $d_{c_j}$ denote the probability variant $c_j$ ends up being detectable in the primary tumor. In our [paper preprint](https://www.biorxiv.org/content/10.1101/2020.08.24.262378v1), we found that under the infinite allele model, the probability that $B_m^k$, the number of variants specific to the metastatic seeding cell (with $k$ somatic variants in total) take value $i$ can be expressed in a surprisingly simple form in terms of $d_{c_j}$:
+
+<span class="spoiler">
+\begin{equation}
+Pr[B_m^k = i] = d_{c_{k-i}} - d_{c_{k-i+1}}.
+\end{equation}
+</span>
+
+
+
+
 <!--
 As with the last post about the editor, you'll want to be actually editing this post as you read it so that you can see all the Markdown code we're using.
 
