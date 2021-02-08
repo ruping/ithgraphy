@@ -8,11 +8,9 @@ featured: true
 hidden: true
 ---
 
-Director Roland Suso Richter's enigmatic psychological thriller (direct to video/DVD) was based upon screenwriter Michael Cooney's own play "Point of Death" - a title that gave away the film's entire plot twist premise.
+Let $c$ be a metastatic seeding cell (or the founder of a relapsed tumor) and also let $C$ = ($c_0$, $c_1$ , . . . , $c_{k_seed}$ ) be its associated set of variants, indexed according to the order of appearance as the primary tumor expands. Let $d_{c_j}$ denote the probability variant $c_j$ ends up being detectable in the primary tumor. In our [paper]{https://www.biorxiv.org/content/10.1101/2020.08.24.262378v1}, we found that under the infinite allele model, the probability that $d_{c_j}$ take value `i` can be expressed in a surprisingly simple form in terms of $d_{c_j}$ (the variant ).
 
-As in many similar films, such as Jacob's Ladder (1990), Soul Survivors (2001), and The Butterfly Effect (2004), events and people were thoroughly distorted and confused because the protagonist was at the point of death. The tagline was misleading:
 
-"When You Don't Have a Memory, How Can You Remember Who to Trust?"
 
 The mind-warping film opened with a hospital patient Simon Cable (Ryan Phillippe) awakening in a <span class="spoiler"> hospital with little knowledge (amnesia perhaps?) of what had happened, and why he was there, etc. He was told by attending Dr. Jeremy Newman (Stephen Rea) that it was July 29, 2002 (Simon thought it was the year 2000 - he was confused - he heard a doctor say 20:00 hours!) and that he had died for two minutes from cardiac arrest following the near-fatal accident -- but he had been revived ("You're as good as new").</span> Dr. Newman: "Simon, this is the 29th of July. The year is 2002. And your wife, whose name is Anna, is waiting outside." 
 
