@@ -13,7 +13,7 @@ Let $c$ be a seeding cell of a secondary tumor (as opposed to the primary tumor)
 \begin{equation}
 C = (c_0, c_1, . . . , c_{k_{seed}})
 \end{equation}
-be its associated set of variants, indexed according to the order of appearance as the primary tumor expands. Let $d_{c_j}$ denote the probability variant $c_j$ ends up being detectable in the primary tumor. In our [paper preprint](https://www.biorxiv.org/content/10.1101/2020.08.24.262378v1), we found that under the infinite allele model, the probability that $B_m^k$, the number of variants specific to the metastatic seeding cell (with $k$ somatic variants in total) take value $i$ can be expressed in a surprisingly simple form in terms of $d_{c_j}$:
+be its associated set of variants, indexed according to the order of appearance as the primary tumor expands. Let $d_{c_j}$ denote the probability variant $c_j$ ends up being detectable in the primary tumor. We found that under the infinite allele model, the probability that $B_m^k$, the number of variants specific to the metastatic seeding cell (with $k$ somatic variants in total) take value $i$ can be expressed in a surprisingly simple form in terms of $d_{c_j}$:
 
 <span class="spoiler">
 \begin{equation}
