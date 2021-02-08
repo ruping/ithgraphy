@@ -8,7 +8,11 @@ featured: true
 hidden: true
 ---
 
-Let $c$ be a metastatic seeding cell (or the founder of a relapsed tumor) and also let $C$ = ($c_0$, $c_1$ , . . . , $c_{k_seed}$ ) be its associated set of variants, indexed according to the order of appearance as the primary tumor expands. Let $d_{c_j}$ denote the probability variant $c_j$ ends up being detectable in the primary tumor. In our [paper]{https://www.biorxiv.org/content/10.1101/2020.08.24.262378v1}, we found that under the infinite allele model, the probability that $d_{c_j}$ take value `i` can be expressed in a surprisingly simple form in terms of $d_{c_j}$ (the variant ).
+Let $c$ be a metastatic seeding cell (or the founder of a relapsed tumor) and also let
+\begin{equation}
+C = (c_0, c_1, . . . , c_{k_{seed}})
+\end{equation}
+be its associated set of variants, indexed according to the order of appearance as the primary tumor expands. Let $d_{c_j}$ denote the probability variant $c_j$ ends up being detectable in the primary tumor. In our [paper preprint](https://www.biorxiv.org/content/10.1101/2020.08.24.262378v1), we found that under the infinite allele model, the probability that $d_{c_j}$ take value `i` can be expressed in a surprisingly simple form in terms of $d_{c_j}$ (the variant ).
 
 
 
