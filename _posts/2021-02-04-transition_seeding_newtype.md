@@ -6,6 +6,7 @@ categories: [ modeling, detection bias ]
 image: "https://raw.githubusercontent.com/ruping/figure/master/img/img_0107.jpg"
 featured: true
 hidden: true
+
 ---
 Hand drawing from [Athanasios N. Nikolakopoulos](https://www.nikolako.net/)
 
