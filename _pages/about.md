@@ -31,7 +31,8 @@ comments: true
 
 <p>Thank you for your support! Your donation helps me to maintain and improve <a target="_blank" href="https://ruping.github.io/ithgraphy">ithgraphy <i class="fab fa-github"></i></a>.</p>
 
-<a target="_blank" href="https://www.paypal.com/donate?business=4YTP5BJ4HFWEE&item_name=Collect+donations+to+help+me+to+maintain+and+improve+the+ithgraphy+website+for+sharing+visualization+ideas+of+bioinfo+data.&currency_code=USD" class="btn btn-danger"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Us Coffee" style="height: auto !important;width: auto !important;" >Buy us coffee</a> 
+<a target="_blank" href="https://www.paypal.com/donate?business=4YTP5BJ4HFWEE&item_name=Collect+donations+to+help+me+to+maintain+and+improve+the+ithgraphy+website+for+sharing+visualization+ideas+of+bioinfo+data.&currency_code=USD"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Us Coffee" style="height: auto !important;width: auto !important;" ></a> 
+
 
 </div>
 </div>
