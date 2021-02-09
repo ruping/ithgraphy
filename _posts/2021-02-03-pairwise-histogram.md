@@ -2,7 +2,7 @@
 layout: post
 title:  "Mirrored histogram for comparing pairwise VAF Distributions among multiple tumor samples"
 author: ruping
-categories: [ SSNV ]
+categories: [ ssnv, pairwise comparison ]
 image: "https://raw.githubusercontent.com/ruping/figure/master/img/hist.png"
 rating: 4
 ---
