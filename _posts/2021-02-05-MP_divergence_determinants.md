@@ -5,6 +5,7 @@ author: ruping
 categories: [ clonal dynamics, modeling, detection bias ]
 image: "https://raw.githubusercontent.com/ruping/figure/master/img/met_timing_graphical_abstract.png"
 featured: true
+rating: 5
 ---
 
 Longitudinal tumor sampling provided us with the opportunity to quantify the between-tumor (stage) genomic divergence. However, it still remains a puzzle about how to translate the genomic divergence between paired metastatic and primary tumor samples (M-P divergence) into the natural history of metastatic spread. Here, we visualize what exactly is being captured on the trees of tumor evolution by such divergence, by using computational and mathematical modeling approaches. We show that the number of somatic variants of the metastatic seeding cell that are undetectable in the primary tumor sequencing data, can be characterized as the path of the phylogenetic tree from the last appearing variant of the seeding cell back to <mark>the most recent detectable variant</mark>. We find that the expected length of this path is principally determined by the decay in detectability of the variants along the seeding cell’s lineage; and thus, exhibits a significant dependence on the underlying tumor growth dynamics. See our paper entitled [“Elements and evolutionary determinants of genomic divergence between paired primary and metastatic tumors”](https://www.biorxiv.org/content/10.1101/2020.08.24.262378v1) for details.
