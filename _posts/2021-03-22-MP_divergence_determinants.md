@@ -2,13 +2,13 @@
 layout: post
 title:  "Snapshot of our study: Elements and evolutionary determinants of genomic divergence between paired primary and metastatic tumors"
 author: ruping
-categories: [ clonal dynamics, modeling, detection bias ]
+categories: [ clonal dynamics, mathematical modeling, detection bias ]
 image: "https://raw.githubusercontent.com/ruping/figure/master/img/met_timing_graphical_abstract.png"
 featured: true
 rating: 5
 ---
 
-Below we give you a snapshot of our recently published paper [“Elements and evolutionary determinants of genomic divergence between paired primary and metastatic tumors”](https://doi.org/10.1371/journal.pcbi.1008838).
+We know that time is precious and below we give a short description of our recently published paper [“Elements and evolutionary determinants of genomic divergence between paired primary and metastatic tumors”](https://doi.org/10.1371/journal.pcbi.1008838).
 
 Longitudinal tumor sampling provided us with the opportunity to quantify the between-tumor (stage) genomic divergence. However, it still remains a challenge about how to translate the genomic divergence between paired metastatic and primary tumor samples (M-P divergence) into the natural history of metastatic spread. Given a phylogenetic tree of these tumor samples constructed from NGS data, should we read a small M-P divergence as a sign of "early" metastatic seeding, or evidence of a "late" acquisiton of the metastatic potential? Before answering this clinically relevant question, one needs to characterize what exactly is being captured on the trees of tumor evolution by such divergence.
 
