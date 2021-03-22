@@ -1,24 +1,28 @@
 ---
 layout: post
-title:  "Snapshot of our study: Elements and evolutionary determinants of genomic divergence between paired primary and metastatic tumors"
+title:  "Modeling the between-tumor genomic divergence"
 author: ruping
 categories: [ clonal dynamics, mathematical modeling, detection bias ]
-image: "https://raw.githubusercontent.com/ruping/figure/master/img/met_timing_graphical_abstract.png"
+image: "https://raw.githubusercontent.com/ruping/figure/master/img/20210322145635.png"
 featured: true
 rating: 5
 ---
 
-We know that time is precious and below we give a short description of our recently published paper [“Elements and evolutionary determinants of genomic divergence between paired primary and metastatic tumors”](https://doi.org/10.1371/journal.pcbi.1008838).
+Here we give a snapshot of our recently published paper [“Elements and evolutionary determinants of genomic divergence between paired primary and metastatic tumors”](https://doi.org/10.1371/journal.pcbi.1008838) in [PLoS Computational Biology](https://journals.plos.org/ploscompbiol/).
 
-Longitudinal tumor sampling provided us with the opportunity to quantify the between-tumor (stage) genomic divergence. However, it still remains a challenge about how to translate the genomic divergence between paired metastatic and primary tumor samples (M-P divergence) into the natural history of metastatic spread. Given a phylogenetic tree of these tumor samples constructed from NGS data, should we read a small M-P divergence as a sign of "early" metastatic seeding, or evidence of a "late" acquisiton of the metastatic potential? Before answering this clinically relevant question, one needs to characterize what exactly is being captured on the trees of tumor evolution by such divergence.
+Longitudinal tumor sampling provides us with the opportunity to quantify the between-tumor (stage) genomic divergence. However, it still remains a challenge about how to translate the genomic divergence between paired metastatic and primary tumor samples (M-P divergence) into the natural history of metastatic spread. Given a phylogenetic tree of these tumor samples constructed from NGS data, should we read a small M-P divergence as a sign of "early" metastatic seeding, or evidence of a "late" acquisiton of the metastatic potential? Before answering this clinically relevant question, one needs to characterize what exactly is being captured on the trees of tumor evolution by such divergence.
 
-![Figure1](https://raw.githubusercontent.com/ruping/figure/master/img/20210322112926.png)
+<img src="https://raw.githubusercontent.com/ruping/figure/master/img/20210322154939.png" alt="Figure1" width="850"/>
 
-We show that the number of somatic variants of the metastatic seeding cell that are undetectable in the primary tumor sequencing data, i.e., the number of somatic variants specific to the metastatic seeding cell $B_{md}$, can be characterized as the path of the phylogenetic tree from the last appearing variant of the seeding cell back to <mark>the most recent detectable variant</mark>. In other words, the depth of the <mark>recent detectable variant</mark> in the seeding cell's geneaology characterizes the M-P divergence. The same reasoning applys to the number of somatic variants specific to the primary tumor $B_p$.
+We show that the number of somatic variants of the metastatic seeding cell that are undetectable in the primary tumor sequencing data, i.e., the number of somatic variants specific to the metastatic seeding cell, $B_{md}$, can be characterized as the path of the phylogenetic tree from the last appearing variant of the seeding cell back to <mark>the most recent detectable variant (MRDA)</mark>. In other words, the depth of the <mark>MRDA</mark> in the seeding cell's lineage characterizes $B_{md}$. Let $k$ represents the total number of somatic variants in the seeding cell, and $\alpha$ to be the sequencing detectablity threshold, we have
 
-![Figure2](https://raw.githubusercontent.com/ruping/figure/master/img/20210322113007.png)
+\begin{equation}
+B^k_{md} = k - V_{MRDA}(k, \alpha)
+\end{equation}
 
-We find that the expected length of this path is principally determined by the decay in detectability of the variants along the seeding cell’s lineage; and thus, exhibits a significant dependence on the underlying tumor growth dynamics.
+Further, we find that the expected length of this path is principally determined by the decay in detectability of the variants along the seeding cell’s lineage; and thus, exhibits a significant dependence on the underlying tumor growth dynamics.
+
+<img src="https://raw.githubusercontent.com/ruping/figure/master/img/20210322114635.png" alt="Figure2" width="750"/>
 
 Let $c$ be a seeding cell of a secondary tumor (as opposed to the primary tumor) and also let
 \begin{equation}
@@ -32,11 +36,17 @@ Pr[B_m^k = i] = d_{c_{k-i}} - d_{c_{k-i+1}}.
 \end{equation}
 </span>
 
-Despite the accumulation of somatic variants in the seeding cell as the primary tumor expands, dissemination from late detectable subclone leads to an abrupt drop in M-P divergence.
+As a result, despite the accumulation of somatic variants in the seeding cell as the primary tumor expands, dissemination from a late detectable subclone leads to an abrupt drop in $B_{md}$. Such effect is unavoidable when dissemination capability is positively associated with fitness advantage, however our math modeling indicates that the expected drop in $B_{md}$ remains significant even when seeding happens uniformly at random from all living cells.
 
-![Figure3](https://raw.githubusercontent.com/ruping/figure/master/img/20210322114635.png)
+<img src="https://raw.githubusercontent.com/ruping/figure/master/img/20210322160628.png" alt="Figure3" width="800"/>
+
+Finally, our spatial modeling verifies that the growth mode governs M-P divergence dependency on seeding time. The non-monotonic pattern revealed here has implications for the accurate translation of the genomic measurement. We hope to pave the way towards bridging the measurable between-tumor heterogeneity with analytical modeling and interpretability.
 
 
+<img src="https://raw.githubusercontent.com/ruping/figure/master/img/20210322161603.png" alt="Figure4" width="800"/>
+
+
+We left the modeling of primary specific variants, $B_p$, as a homework for you to think. Hint: $B_p$ is the total branch length of the genealogies of detectable ancestors at a frequency above $\gamma$ (the variant allele frequency threshold suggesting the substantial presence), after subtracting the branch between the founder and the MRDA (at a frequency above $\gamma$) of the seeding cell. We hope that you enjoy this exercise, and the answer is [here](https://journals.plos.org/ploscompbiol).
 
 
 
