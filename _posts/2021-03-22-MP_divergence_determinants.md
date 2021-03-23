@@ -46,7 +46,7 @@ Finally, our spatial modeling verifies that the growth mode governs M-P divergen
 <img src="https://raw.githubusercontent.com/ruping/figure/master/img/20210322161603.png" alt="Figure4" width="800"/>
 
 
-We left the modeling of primary specific variants, $B_p$, as a homework for you to think. Hint: $B_p$ is the total branch length of the genealogies of detectable ancestors at a frequency above $\gamma$ (the variant allele frequency threshold suggesting the substantial presence), after subtracting the branch between the founder and the MRDA (at a frequency above $\gamma$) of the seeding cell. We hope that you enjoy this exercise, and the answer is [here](https://journals.plos.org/ploscompbiol).
+We left the modeling of primary specific variants, $B_p$, as a homework for you to think. Hint: $B_p$ is the total branch length of the genealogies of detectable ancestors at a frequency above $\gamma$ (the variant allele frequency threshold suggesting the substantial presence), after subtracting the branch between the founder and the MRDA (at a frequency above $\gamma$) of the seeding cell. We hope that you enjoy this exercise, and the answer is [here](https://doi.org/10.1371/journal.pcbi.1008838).
 
 
 
