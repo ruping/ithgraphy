@@ -14,7 +14,7 @@ Longitudinal tumor sampling provides us with the opportunity to quantify the bet
 
 <img src="https://raw.githubusercontent.com/ruping/figure/master/img/20210322154939.png" alt="Figure1" width="850"/>
 
-We show that the number of somatic variants of the metastatic seeding cell that are undetectable in the primary tumor sequencing data, i.e., the number of somatic variants specific to the metastatic seeding cell, $B_{md}$, can be characterized as the path of the phylogenetic tree from the last appearing variant of the seeding cell back to <mark>the most recent detectable variant (MRDA)</mark>. In other words, the depth of the <mark>MRDA</mark> in the seeding cell's lineage characterizes $B_{md}$. Let $k$ represents the total number of somatic variants in the seeding cell, and $\alpha$ to be the sequencing detectablity threshold, we have
+We show that the number of somatic variants of the metastatic seeding cell that are undetectable in the primary tumor sequencing data, i.e., the number of somatic variants specific to the metastatic seeding cell, $B_{md}$, can be characterized as the path of the phylogenetic tree from the last appearing variant of the seeding cell back to <mark>the most recent detectable variant (MRDA)</mark>. In other words, the depth of the <mark>MRDA</mark> in the seeding cell's lineage characterizes $B_{md}$. Let $k$ represent the total number of somatic variants in the seeding cell, and $\alpha$ to be the sequencing detectablity threshold, we have
 
 \begin{equation}
 B^k_{md} = k - V_{MRDA}(k, \alpha)
